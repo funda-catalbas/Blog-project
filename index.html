@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Project</title>
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <!-- HEADER START -->
     <header>
         <div id="hamburgerMenuBtn" class="menuIconContainer">
             <span>
@@ -18,12 +20,12 @@
             </span>
         </div>
         <div class="logoContainer">
-            <img src="./assets/image/scorpiologo.PNG" alt="">
+            <img src="./assets/image/scorpio 2.jpg" alt="">
         </div>
         <nav id="navBar">
             <ul>
                 <li>
-                    <a href="#">Anasayfa</a>
+                    <a href="./index.html">Anasayfa</a>
                 </li>
                 <li>
                     <a href="#">Hakkımda</a>
@@ -34,7 +36,86 @@
             </ul>
         </nav>
     </header>
-
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main class="mainContainer">
+         <!-- CATEGORIES START -->
+         <section class="leftSide">
+            <div class="categoriesTitleContainer">
+                <P>Kategoriler</P>
+            </div>
+            <ul class="categoriesList">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">React</a></li>
+                <li><a href="#">Redux</a></li>
+            </ul>
+         </section>
+         <!-- CATEGORIES END -->
+         <!-- CONTENT START -->
+         <section class="rightSide">
+            <!-- BLOG CARD START -->
+              <div class="cardContainer">
+                <div class="cardImageContainer">
+                    <img src="./assets/image/zodyak1.PNG" alt="">
+                </div>
+                <h3 class="blogTitle">Blog Title</h3>
+                <p class="blogSummary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam enim
+                    voluptatum veniam dignissimos saepe exercitationem, corporis sit
+                    placeat cupiditate! Sit ipsa, fugiat vero sapiente dolores odio esse
+                    iusto repudiandae alias. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Corrupti itaque soluta ullam. Unde odit, est
+                    doloremque repellat, distinctio voluptates ad cumque magnam velit
+                    nulla atque alias ratione minima exercitationem tempore?
+                </p>
+                <div class="card-btn-container">
+                    <button class="card-btn">Devamını Oku</button>
+                </div>
+              </div>
+            <!-- BLOG CARD END -->
+            <div class="cardContainer">
+                <div class="cardImageContainer">
+                    <img src="./assets/image/zodyak2.PNG" alt="">
+                </div>
+                <h3 class="blogTitle">Blog Title</h3>
+                <p class="blogSummary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam enim
+                    voluptatum veniam dignissimos saepe exercitationem, corporis sit
+                    placeat cupiditate! Sit ipsa, fugiat vero sapiente dolores odio esse
+                    iusto repudiandae alias. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Corrupti itaque soluta ullam. Unde odit, est
+                    doloremque repellat, distinctio voluptates ad cumque magnam velit
+                    nulla atque alias ratione minima exercitationem tempore?
+                </p>
+                <div class="card-btn-container">
+                    <button class="card-btn">Devamını Oku</button>
+                </div>
+              </div>
+              <div class="cardContainer">
+                <div class="cardImageContainer">
+                    <img src="./assets/image/zodyak3.PNG" alt="">
+                </div>
+                <h3 class="blogTitle">Blog Title</h3>
+                <p class="blogSummary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam enim
+                    voluptatum veniam dignissimos saepe exercitationem, corporis sit
+                    placeat cupiditate! Sit ipsa, fugiat vero sapiente dolores odio esse
+                    iusto repudiandae alias. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Corrupti itaque soluta ullam. Unde odit, est
+                    doloremque repellat, distinctio voluptates ad cumque magnam velit
+                    nulla atque alias ratione minima exercitationem tempore?
+                </p>
+                <div class="card-btn-container">
+                    <button class="card-btn">Devamını Oku</button>
+                </div>
+              </div>
+         </section>
+         <!-- CONTENT END -->
+    </main>
+    <!-- MAIN END -->
+    
     <script src="./js/header.js"></script>
 </body>
 </html>
