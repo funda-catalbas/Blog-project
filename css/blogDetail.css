@@ -1,0 +1,52 @@
+.blogDetailMainContainer{
+    width: 100%;
+    min-height: calc(100vh - 75px);
+}
+
+.blogDetailImageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.blogDetailImageContainer img{
+    width: 50%;
+}
+
+.blogDetailTitle{
+    text-align: center;
+}
+
+.blogContentContainer{
+    padding: 30px 100px;
+    text-align: justify;
+}
+
+.blogContentContainer p{
+    padding: 5px 0px;
+}
+
+.authorInfoContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   margin: 20px 0px;
+}
+
+/* Break Points*/
+
+@media screen and (min-width: 800px) {
+    .blogDetailImageContainer img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .blogDetailImageContainer img{
+        width: 100%;
+    }
+    .blogDetailImageContainer{
+        padding: 10px;
+    }
+}

@@ -29,6 +29,7 @@
 .leftSide{
     max-height: 60vh;
     flex: 1;
+    width: 50vh;
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
     box-shadow: 0px 0px 10px 0px #65647C;
@@ -63,13 +64,13 @@
 .rightSide{
     flex: 3;
     display: flex;
-    width: 40px;
+    width: 50vh;
     flex-wrap: wrap;
     gap: 10px;
 }
 
 .cardContainer{
-    width: 45%;
+    width: 100vh;
     padding: 10px;
     min-height: 300px;
     border-radius: 5px;
@@ -78,7 +79,6 @@
     transition: all 0.2s linear;
     cursor: pointer;
     opacity: 0.8;
-    transition: all 0.6s linear;
     cursor: pointer;
 }
 
@@ -106,6 +106,7 @@
 
 .blogSummary{
     color: #555;
+    text-align: justify;
 }
 
 .card-btn-container{
@@ -115,9 +116,10 @@
 }
 
 .card-btn{
+text-decoration: none;
 border: none;
 padding: 5px 20px;
-background-color: #65647C;
+background-color: darkred;
 cursor: pointer;
 color: aliceblue;
 border-radius: 4px;
@@ -145,7 +147,7 @@ transition: all 0.2s linear;
   }
 
 .cardContainer{
-    width: 100%;
+    width: 100vh;
 }
 }
 
@@ -154,6 +156,6 @@ transition: all 0.2s linear;
       flex-direction: column;
   }
   .cardContainer{
-    width: 100%;
+    width: 100vh;
 }
 }
