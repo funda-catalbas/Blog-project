@@ -4,6 +4,7 @@
     min-height: calc(100vh - 75px);
     gap: 10px;
     display: flex;
+    background-color: antiquewhite;
 }
 
 /* width */
@@ -40,16 +41,18 @@
     padding: 10px 15px;
     font-weight: 600;
     border-bottom: 1px solid #d5d5d5;
-    color: #565656;
+    color: black;
+    text-align: center;
 }
 .categoriesList li{
     padding: 10px 25px;
     border-bottom: 1px solid #d5d5d5;
-    color: #565656;
+    color: black;
     transition: all 0.2s linear;
+    text-align: center;
 }
 .categoriesList li a{
-    color: #565656;
+    color: black;
     text-decoration: none;
     transition: all 0.2s linear;
 }
@@ -78,8 +81,6 @@
     opacity: 0.8;
     transition: all 0.2s linear;
     cursor: pointer;
-    opacity: 0.8;
-    cursor: pointer;
 }
 
 .cardContainer:hover{
@@ -101,11 +102,11 @@
 .blogTitle{
     text-align: center;
     padding: 5px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .blogSummary{
-    color: #555;
+    color: black;
     text-align: justify;
 }
 
@@ -119,15 +120,16 @@
 text-decoration: none;
 border: none;
 padding: 5px 20px;
-background-color: darkred;
+background-color: rgb(134, 158, 170);
 cursor: pointer;
-color: aliceblue;
+color: whitesmoke;
 border-radius: 4px;
 transition: all 0.2s linear;
 }
 
 .card-btn:hover{
     box-shadow: 0px 0px 5px 0px gray;
+    color: black;
 }
 
 /* Break Points*/

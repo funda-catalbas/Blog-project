@@ -10,7 +10,7 @@ header{
     position: sticky;
     top: 0;
     min-height: 75px;
-    background-color: #CEEDC7;
+    background-color:rgb(134, 158, 170);
     margin: 0; 
     display: flex;
     justify-content: space-between;
@@ -21,13 +21,13 @@ header{
 }
 
 .logoContainer{
-    width: 75%;
-    height: 100px;
+    width: 60%;
+    height: 80px;
 }
 
 .logoContainer img{
-    width: 15%;
-    height: 100px;
+    width: 10%;
+    height: 80px;
 }
 
 ul{
@@ -43,6 +43,7 @@ nav ul{
     display: flex;
     gap: 25px;
     color: black;
+    font-size: large;
 }
 
 .menuIconContainer{
@@ -106,6 +107,6 @@ nav ul{
     }
     
     .logoContainer img{
-        width: 25%;
+        width: 20%;
     }
 }

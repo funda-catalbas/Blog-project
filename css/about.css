@@ -1,0 +1,127 @@
+.aboutMainContainer{
+    width: 100%;
+    min-height: calc(100vh - 75px);
+    padding: 50px; 
+    background-color: lightgray; 
+}
+
+.aboutDescriptionContainer{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   background-color:antiquewhite;
+   box-shadow: 0px 0px 3px 0px rgb(138, 135, 135);
+}
+.aboutDescriptionImg{
+    width: 180px;
+    height: 190px;
+    padding: 5px;
+}
+
+.aboutDescriptionImg Img{
+    width: 180px;
+    height: 180px;
+    border-radius: 8rem;
+}
+
+.aboutDescriptionContent{
+    text-align: justify;
+    padding: 10px;
+}
+
+.marginTop10{
+    margin-top: 10px;
+}
+
+.aboutInfosContainer{
+    margin: 20px 0px;
+    display: flex;
+    gap: 20px;
+    background-color:antiquewhite;
+    box-shadow: 0px 0px 3px 0px rgb(138, 135, 135);
+}
+
+.aboutInfosLeftContainer{
+    width: 190px;
+    min-height: 300px;
+}
+
+.aboutInfosRightContainer{
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.aboutInfosRightContainerTitle{
+    float: right;
+}
+
+.aboutInfosLeftItemContainer{
+    display: flex;
+    gap: 5px;
+    padding: 10px 3px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.aboutInfosLeftItemContainer span{
+   font-size: 13px;
+}
+
+.projectCardsMainContainer{
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.simpleProjectCardContainer{
+    width: 240px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    border: 1px solid rgb(134, 158, 170);
+}
+
+.simpleProjectCardImgContainer{
+    width: 200%;
+    height: 130px;
+}
+
+.simpleProjectCardImgContainer img{
+    width: 50%;
+    height: 130px;
+}
+
+.simpleProjectCardTitle{
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.simpleProjectCardDescription{
+    padding: 10px;
+    text-align: justify;
+}
+
+.simpleProjectCardLinkContainer{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.simpleProjectCardLinkContainer a{
+    padding: 5px 20px;
+    border: 1px solid rgb(134, 158, 170);
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s linear;
+}
+
+.simpleProjectCardLinkContainer a:hover{
+    background-color:rgb(134, 158, 170);
+    color: antiquewhite;
+}
