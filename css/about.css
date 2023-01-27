@@ -9,18 +9,17 @@
    display: flex;
    align-items: center;
    gap: 20px;
+   padding: 10px;
    background-color:antiquewhite;
    box-shadow: 0px 0px 3px 0px rgb(138, 135, 135);
 }
 .aboutDescriptionImg{
-    width: 180px;
-    height: 190px;
-    padding: 5px;
+    display: flex;
 }
 
 .aboutDescriptionImg Img{
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 8rem;
 }
 
@@ -42,27 +41,27 @@
 }
 
 .aboutInfosLeftContainer{
-    width: 190px;
+    width: 200px;
     min-height: 300px;
 }
 
 .aboutInfosRightContainer{
-    flex: 1;
+    width: calc(100% - 180px);
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-   
+    gap: 20px;
+     
 }
 
 .aboutInfosRightContainerTitle{
-    float: right;
+    margin-left: 65vh;
 }
 
 .aboutInfosLeftItemContainer{
     display: flex;
     gap: 5px;
-    padding: 10px 3px;
+    padding: 10px 15px;
     align-items: center;
     color: black;
     text-decoration: none;
@@ -73,27 +72,27 @@
 }
 
 .projectCardsMainContainer{
-    flex: 1;
+    width: 90%;
     display: flex;
-    gap: 20px;
-    
+    gap: 10px;
+    overflow-x: scroll;
 }
 
 .simpleProjectCardContainer{
-    width: 240px;
+    width: 100vh;
     background-color: aliceblue;
     border-radius: 4px;
     border: 1px solid rgb(134, 158, 170);
 }
 
 .simpleProjectCardImgContainer{
-    width: 200%;
-    height: 130px;
+    width: 30vh;
+    height: 180px;
 }
 
 .simpleProjectCardImgContainer img{
-    width: 50%;
-    height: 130px;
+    width: 30vh;
+    height: 150px;
 }
 
 .simpleProjectCardTitle{
@@ -124,4 +123,39 @@
 .simpleProjectCardLinkContainer a:hover{
     background-color:rgb(134, 158, 170);
     color: antiquewhite;
+}
+
+/*responsive*/
+
+@media screen and (min-width: 900px){
+    .aboutMainContainer{
+        padding: 50px 200px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .aboutDescriptionContainer{
+        flex-direction: column;
+    }
+
+    .aboutDescriptionContainer h3, .aboutDescriptionContainer h4{
+        text-align: center;
+    }
+
+    .aboutInfosContainer{
+        flex-direction: column;
+    }
+
+    .aboutInfosLeftContainer{
+        width: 100%;
+        min-height: 0px;
+    }
+
+    .aboutInfosRightContainer{
+        width: 100%;
+    }
+
+    .aboutInfosRightContainerTitle{
+        margin-left: 25vh;
+    }
 }
